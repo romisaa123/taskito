@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todoist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <header>
+                <div class="logo">
+                    <img src="/Screenshot_2025-07-20_234931-removebg-preview.png" alt="logo" width="150" class="lg">
+                    <h2>To<span><i>doist</i></span></h2>
+            </div>
+            </header>
+            <hr>
+            <main id="mn">
+                <section class="add">
+                        <input type= "text" name="task" id="todo" placeholder="Add A Task" >
+                        <button id="bt" type="submit" >Add</button>
+                        <br>              
+                </section>
+                <p id="error-message" >Please enter a task!</p>
+                <div class="tosks">
+                    <h1>Task List</h1>
+                    <ul id="list"></ul>
+                </div>
+                <hr>
+            </main>
+            <footer id="ft">
+                <p>© 2025 Todoist App</p>
+                <span>All rights reserved.</span>
+            </footer>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
